@@ -5,3 +5,4 @@ IF EXIST ChangeScreenResolution.exe echo F | XCOPY "ChangeScreenResolution.exe" 
 ::for /f %%i in ('wmic path Win32_VideoController get CurrentHorizontalResolution^,CurrentVerticalResolution /value ^| find "="') do set "%%i"
 ::echo your screen is %CurrentHorizontalResolution% * %CurrentVerticalResolution% pixels
 %userprofile%\ChangeScreenResolution.exe /f=100 /d=0
+exit
