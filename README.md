@@ -1,7 +1,7 @@
 # Auto-MonitorRefreshrate
 This Software Requires nirsoft's nircmd.
 
-@Installation Guide
+### Installation Guide
 1. Downloading Software from a nirsoft (for Windows)
 For 32bit: http://www.nirsoft.net/utils/nircmd-x64.zip 
 For 64bit: http://www.nirsoft.net/utils/nircmd.zip)
